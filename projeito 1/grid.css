@@ -1,0 +1,42 @@
+.janela1{
+    height: 150px;
+    background-color: rgb(89, 173, 166);
+    grid-area: janela1;
+}
+
+.janela2{
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    grid-area: janela2;
+
+}
+
+.janela3{
+    height: 150px;
+    background-color: rgb(rgb(97, 72, 72), green, rgb(58, 149, 185));
+    grid-area: janela3;
+}
+
+.janela4{
+    height: 150px;
+    background-color: rgb(0, 248, 248);
+    grid-area: janela4;
+}
+
+.janela5{
+    height: 150px;
+    background-color: rgb(214, 59, 93);
+    grid-area: janela5;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-template-areas:
+    "janela1 janela1 janela1 janela1 janela1"
+    "janela2 janela3 janela3 janela3 janela4"
+    "janela2 janela3 janela3 janela3 janela4"
+    "janela2 janela3 janela3 janela3 janela4"
+    "janela5 janela5 janela5 janela5 janela5";  
+}
